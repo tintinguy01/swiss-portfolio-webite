@@ -2,7 +2,7 @@
   "name": "swiss-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tintinguy01.github.io/swiss-portfolio-website",
+  "homepage": "https://tintinguy01.github.io/swiss-portfolio-webite/",
   "dependencies": {
     "@react-spring/web": "^9.7.5",
     "@react-three/drei": "^9.114.6",
