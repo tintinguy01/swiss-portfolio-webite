@@ -2,6 +2,7 @@
   "name": "swiss-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tintinguy01.github.io/swiss-portfolio",
   "dependencies": {
     "@react-spring/web": "^9.7.5",
     "@react-three/drei": "^9.114.6",
@@ -35,6 +36,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
