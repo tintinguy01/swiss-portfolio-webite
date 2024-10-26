@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/swiss-portfolio-website/static/css/main.f848f05d.css",
+    "main.js": "/swiss-portfolio-website/static/js/main.44e2de0e.js",
+    "static/js/453.75d3c084.chunk.js": "/swiss-portfolio-website/static/js/453.75d3c084.chunk.js",
+    "static/media/movierev.png": "/swiss-portfolio-website/static/media/movierev.f08ecfbc312f9e8adb60.png",
+    "static/media/taskflow.png": "/swiss-portfolio-website/static/media/taskflow.c55fb2fc7124c46a07ab.png",
+    "static/media/robo.png": "/swiss-portfolio-website/static/media/robo.cd042281b0eeb0183e54.png",
+    "static/media/drumkit.png": "/swiss-portfolio-website/static/media/drumkit.baab18bc86ea64ef3019.png",
+    "static/media/fishme.png": "/swiss-portfolio-website/static/media/fishme.deb01969c56b5121e67d.png",
+    "static/media/simon.png": "/swiss-portfolio-website/static/media/simon.59954e3aa06552f8bad9.png",
+    "index.html": "/swiss-portfolio-website/index.html",
+    "main.f848f05d.css.map": "/swiss-portfolio-website/static/css/main.f848f05d.css.map",
+    "main.44e2de0e.js.map": "/swiss-portfolio-website/static/js/main.44e2de0e.js.map",
+    "453.75d3c084.chunk.js.map": "/swiss-portfolio-website/static/js/453.75d3c084.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f848f05d.css",
+    "static/js/main.44e2de0e.js"
+  ]
+}
