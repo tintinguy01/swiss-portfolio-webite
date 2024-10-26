@@ -1,0 +1,199 @@
+.education-page {
+    padding: 2rem;
+    max-width: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    max-height: 100vh;
+    overflow-y: auto;
+
+    h1 {
+        padding-top: 27%;
+        font-size: 1.5rem !important;
+        text-align: center;
+    }
+
+    .education-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin: 5%;
+        padding-bottom: 20%;
+
+        .others {
+            margin-bottom: 10%;
+        }
+
+        .academic, .others {
+            background-color: rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            width: 100%;
+
+            h2 {
+                font-size: 1.25rem;
+                margin-bottom: 1rem;
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+            p {
+                flex: 1.5;
+                font-size: 0.85rem;
+                color: rgba(255, 255, 255, 0.9);
+            }
+
+            span {
+                flex: 1;
+                font-size: 0.75rem;
+                color: rgba(255, 255, 255, 0.6);
+            }
+
+            .table-row {
+                display: flex;
+                align-items: center;
+                gap: 1.5rem;
+                padding: 1rem 0;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+                &:last-child {
+                    border-bottom: none;
+                }
+
+                h3, h4, p, span, img {
+                    margin: 0;
+                    color: rgba(255, 255, 255, 0.9);
+                }
+
+                h3 {
+                    flex: 1;
+                    font-size: 0.95rem;
+                    color: #f0f0f0;
+                }
+
+                img {
+                    flex: 0.5;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: #2c2c2c;
+                    border: 2px solid rgba(255, 255, 255, 0.1);
+                    object-fit: cover;
+                }
+            }
+
+            .courses {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                overflow-y: hidden;
+                max-height: 200px;
+
+                p {
+                    position: relative;
+                    padding-left: 1.2rem;
+                    font-size: 0.86rem;
+                    color: rgba(255, 255, 255, 0.9);
+
+                    &::before {
+                        content: "•";
+                        position: absolute;
+                        left: 0;
+                        color: #ffffff;
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .education-page {
+        
+        h1 {
+            padding-top: 30% ;
+        }
+
+        .others {
+            margin-bottom: 10%;
+        }
+        
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .education-page {
+        
+        h1 {
+            padding-top: 35% ;
+        }
+
+        .education-container {
+            .academic, .others {
+                h2 {
+                    font-size: 1.1rem;
+                }
+    
+                p {
+                    font-size: 0.75rem;
+                }
+    
+                span {
+                    font-size: 0.65rem;
+                }
+            }
+        }
+
+        .others {
+            margin-bottom: 15%;
+        }
+        
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .education-page {
+        
+        h1 {
+            padding-top: 40% ;
+        }
+
+        .others {
+            margin-bottom: 20%;
+        }
+        
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .education-page {
+        
+        h1 {
+            padding-top: 25% ;
+        }
+
+        .others {
+            margin-bottom: 8%;
+        }
+        
+    }
+}
+
+@media (max-width: 900px) {
+
+    .education-page {
+        
+        h1 {
+            padding-top: 35% ;
+        }
+
+        .others {
+            margin-bottom: 20%;
+        }
+        
+    }
+}

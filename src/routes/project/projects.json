@@ -1,0 +1,39 @@
+[
+    {
+      "image": "taskflow.png",
+      "title": "TaskFlow",
+      "description": "TaskFlow streamlines task management and scheduling with customizable categories and dynamic progress tracking.",
+      "link": "https://task-management-app-six-tau.vercel.app/"
+    },
+    {
+      "image": "movierev.png",
+      "title": "Movierev",
+      "description": "Website for reviewing movies.",
+      "link": "https://movirev.vercel.app/"
+    },
+    {
+    "image": "fishme.png",
+    "title": "FISH.me-Forecast",
+    "description": "The weather forecast project for FISH.me senior project.",
+    "link": "https://fish-me-weather-forecast.vercel.app/"
+    },
+    {
+    "image": "simon.png",
+    "title": "Simon game",
+    "description": "A Simon game in which the player must press the button to repeat the randomly generated pattern.",
+    "link": "https://simon-game-three-ashen.vercel.app/"
+    },
+    {
+    "image": "drumkit.png",
+    "title": "Drum kit",
+    "description": "A drum kit project in which the user can play the drums by clicking a button or pressing a key.",
+    "link": "https://drumkit-bice.vercel.app/"
+    },
+    {
+    "image": "robo.png",
+    "title": "Robo-Friends",
+    "description": "Robo Friends is a web application that showcases a collection of robot characters. It provides a user-friendly interface where users can.",
+    "link": "https://tintinguy01.github.io/robo-friends/"
+    }
+  ]
+  

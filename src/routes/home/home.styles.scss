@@ -1,0 +1,210 @@
+.hoverText {
+    display: inline-block;
+    transition: 
+        0.35s font-weight, 
+        0.35s color,
+        0.3s transform;
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.hoverText:hover {
+    font-weight: 900;
+    color: rgba(255, 255, 255);
+    transform: translateY(-5px) scale(1.2);
+}
+
+/* To the right */
+.hoverText:hover + .hoverText {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.hoverText:hover + .hoverText + .hoverText {
+    font-weight: 300;
+}
+
+/* To the left */
+.hoverText:has(+ .hoverText:hover) {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.hoverText:has(+ .hoverText + .hoverText:hover) {
+    font-weight: 300;
+}
+
+.hoverText::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background-color: currentColor;
+    transition: transform 0.3s ease;
+    transform: translateX(-50%) scaleX(0);
+}
+
+.hoverText:hover::before {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.hoverText:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .home-container {
+      position: relative;
+      display: flex;
+      margin: 8%;
+      width: 45%;
+      bottom: 10%;
+
+      .h1-container {
+          height: 31%;
+
+          h1 {
+              color: rgba(255, 255, 255, 0.8);
+              font-size: 3rem;
+              font-weight: bold;
+
+              span {
+                  color: rgba(255, 255, 255);
+              }
+          }
+      }
+
+      p {
+          color: rgba(255, 255, 255, 0.5);
+          font-size: medium;
+          padding: 10px;
+      }
+
+      .cursor {
+          display: inline-block;
+          width: 5px;
+          height: 1em;
+          background-color: rgba(255, 255, 255, 0.8);
+          margin-left: 10px;
+          animation: blink 1s step-end infinite;
+      }
+  }
+
+  .hero-container {
+      padding-left: 10%;
+      position: relative;
+      border-radius: 50px;
+      height: 60vh;
+      width: 30%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 3%;
+      margin-bottom: 5%;
+      background-color: rgba(0, 0, 0, 0.35);
+
+      i {
+          position: absolute;
+          top: -250px;
+          background: rgb(255, 255, 255, 0.5);
+          animation: animateStar linear infinite;
+      }
+
+      p {
+          position: relative;
+          color: rgb(255, 255, 255, 0.5);
+          bottom: -35%;
+          right: 5%;
+      }
+  }
+
+  .icon-button-container {
+      display: flex;
+      gap: 10px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+  }
+
+  // Responsive design adjustments
+@media (max-width: 1600px) {
+  .home-container {
+    width: 55%;
+  }
+
+  .hero-container {
+    height: 55vh;
+    width: 35%;
+    padding-bottom: 1%;
+  }
+}
+
+@media (max-width: 1300px) {
+    .home-container {
+      width: 65%;
+      margin: 5%;
+      
+        .h1-container h1 {
+          font-size: 2.25rem;
+      }
+
+        p {
+          font-size: 0.9rem;
+        }
+
+        h3 {
+          font-size: 0.9rem;
+        };
+    }
+
+    .hero-container {
+      height: 50vh;
+      width: 40%;
+      padding-right: 1%;
+
+      p {
+        font-size: small;
+      }
+    }
+}
+
+@media (max-width: 1000px) {
+  flex-direction: column;
+
+    .home-container {
+      top: 10%;
+      margin: 2%;
+      right: 5%;
+      height: 100%;
+
+      h3, p {
+        margin-bottom: 10%;
+      }
+    }
+
+    .hero-container {
+      opacity: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-container {
+        
+        .h1-container h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+  }
+}

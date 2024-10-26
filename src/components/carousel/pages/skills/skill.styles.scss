@@ -1,0 +1,125 @@
+.skills-page {
+    padding: 0 4rem;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow-y: auto;
+
+    h1 {
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem !important;
+    }
+
+    .skills-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        
+        .hard-skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+
+            h3 {
+                text-align: left;
+                width: 100%;
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                color: rgb(255, 255, 255, 0.7);
+            }
+
+            svg {
+                font-size: 2.5rem;
+                padding: 0.5rem;
+                border-radius: 50%;
+                color: white; /* default color */
+
+                /* Add color and background for each icon */
+                &.fa-html5 {
+                    color: #E34F26;
+                    background-color: rgba(227, 79, 38, 0.2);
+                }
+
+                &.fa-css3 {
+                    color: #1572B6;
+                    background-color: rgba(21, 114, 182, 0.2);
+                }
+
+                &.si-javascript {
+                    color: #F7DF1E;
+                    background-color: rgba(247, 223, 30, 0.2);
+                }
+
+                &.fa-python {
+                    color: #306998;
+                    background-color: rgba(48, 105, 152, 0.2);
+                }
+
+                &.fa-node-js {
+                    color: #68A063;
+                    background-color: rgba(104, 160, 99, 0.2);
+                }
+
+                &.di-jquery-logo {
+                    color: #0769AD;
+                    background-color: rgba(7, 105, 173, 0.2);
+                }
+
+                &.fa-git-alt {
+                    color: #F05032;
+                    background-color: rgba(240, 80, 50, 0.2);
+                }
+
+                &.tb-file-type-sql {
+                    color: #00758F;
+                    background-color: rgba(0, 117, 143, 0.2);
+                }
+
+                &.bi-logo-postgresql {
+                    color: #336791;
+                    background-color: rgba(51, 103, 145, 0.2);
+                }
+
+                &.fa-react {
+                    color: #61DAFB;
+                    background-color: rgba(97, 218, 251, 0.2);
+                }
+
+                &.ri-nextjs-fill {
+                    color: white;
+                    background-color: rgba(0, 0, 0, 0.1);
+                }
+
+                &.si-postman {
+                    color: #FF6C37;
+                    background-color: rgba(255, 108, 55, 0.2);
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1300px) {
+        
+        .skills-container {
+            margin-bottom: 5%;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        
+        .skills-container {
+            margin-bottom: 10%;
+            margin-left: 10%;
+        }
+        
+    }
+
+    @media (max-width: 800px) {
+        
+        .skills-container {
+            margin-bottom: 15%;
+        }
+    }
+}
