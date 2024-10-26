@@ -2,7 +2,7 @@
   "name": "swiss-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tintinguy01.github.io/swiss-portfolio",
+  "homepage": "https://tintinguy01.github.io/swiss-portfolio-website",
   "dependencies": {
     "@react-spring/web": "^9.7.5",
     "@react-three/drei": "^9.114.6",
@@ -20,6 +20,7 @@
     "flowbite": "^2.5.2",
     "flowbite-react": "^0.10.2",
     "framer-motion": "^11.11.9",
+    "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-feather": "^2.0.10",
@@ -34,9 +35,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
