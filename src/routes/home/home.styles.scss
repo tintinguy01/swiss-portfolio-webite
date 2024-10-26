@@ -124,6 +124,15 @@
           bottom: -35%;
           right: 5%;
       }
+
+      @keyframes animateStar {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(100vh);
+        }
+      }
   }
 
   .icon-button-container {
