@@ -81,9 +81,9 @@
       }
 
       p {
+          margin-top: 3rem;
           color: rgba(255, 255, 255, 0.5);
           font-size: medium;
-          padding: 10px;
       }
 
       .cursor {
@@ -143,7 +143,6 @@
       right: 20px;
   }
 
-  // Responsive design adjustments
 @media (max-width: 1600px) {
   .home-container {
     width: 55%;
@@ -167,6 +166,7 @@
 
         p {
           font-size: 0.9rem;
+          margin-top: 0;
         }
 
         h3 {

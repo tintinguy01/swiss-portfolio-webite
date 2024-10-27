@@ -4,7 +4,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import "./home.styles.scss";
 
 // Import components
-import Button from "../../components/button/button";
+import ClipboardButton from "../../components/clipboard/clipboard";
 import Hero from "../../components/hero/hero";
 import IconButton from "../../components/icon-button/button";
 
@@ -76,14 +76,6 @@ const Home = () => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
 
-  const copyEmailToClipboard = () => {
-    navigator.clipboard.writeText("tintinguy01@gmail.com").then(() => {
-      console.log("Email copied to clipboard!");
-    }).catch(err => {
-      console.error("Failed to copy: ", err);
-    });
-  };
-
   return (
     <div className="container">
       <div className="home-container">
@@ -112,12 +104,7 @@ const Home = () => {
             I'm actively seeking new opportunities as a full-stack software engineer. 
             Feel free to get in touch—I'm excited to connect and contribute to meaningful projects!
           </p>
-          <Button 
-            onClick={copyEmailToClipboard} 
-            clickedText="Copied!"
-          >
-            tintinguy01@gmail.com
-          </Button>
+          <ClipboardButton valueToCopy="tintinguy01@gmail.com" />
         </div>
       </div>
       <div className="hero-container">
