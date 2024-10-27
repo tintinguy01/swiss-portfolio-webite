@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/swiss-portfolio-webite/static/css/main.26934de7.css",
-    "main.js": "/swiss-portfolio-webite/static/js/main.748cecdb.js",
+    "main.css": "/swiss-portfolio-webite/static/css/main.7c906fd2.css",
+    "main.js": "/swiss-portfolio-webite/static/js/main.fc1facd1.js",
     "static/js/453.75d3c084.chunk.js": "/swiss-portfolio-webite/static/js/453.75d3c084.chunk.js",
     "static/media/movierev.png": "/swiss-portfolio-webite/static/media/movierev.f08ecfbc312f9e8adb60.png",
     "static/media/taskflow.png": "/swiss-portfolio-webite/static/media/taskflow.c55fb2fc7124c46a07ab.png",
@@ -14,12 +14,12 @@
     "static/media/university.png": "/swiss-portfolio-webite/static/media/university.87b5ef0c09f64fb65e6c.png",
     "static/media/school.jpg": "/swiss-portfolio-webite/static/media/school.1d1a7da90355e8ab3e9d.jpg",
     "index.html": "/swiss-portfolio-webite/index.html",
-    "main.26934de7.css.map": "/swiss-portfolio-webite/static/css/main.26934de7.css.map",
-    "main.748cecdb.js.map": "/swiss-portfolio-webite/static/js/main.748cecdb.js.map",
+    "main.7c906fd2.css.map": "/swiss-portfolio-webite/static/css/main.7c906fd2.css.map",
+    "main.fc1facd1.js.map": "/swiss-portfolio-webite/static/js/main.fc1facd1.js.map",
     "453.75d3c084.chunk.js.map": "/swiss-portfolio-webite/static/js/453.75d3c084.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26934de7.css",
-    "static/js/main.748cecdb.js"
+    "static/css/main.7c906fd2.css",
+    "static/js/main.fc1facd1.js"
   ]
 }
