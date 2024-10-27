@@ -26,6 +26,11 @@
         padding-bottom: 8%;
 
         .others {
+
+            @media (max-width: 1200px) {
+                margin-bottom: 5%;
+            }
+
             @media (max-width: 600px) {
                 margin-bottom: 10%;
             }
