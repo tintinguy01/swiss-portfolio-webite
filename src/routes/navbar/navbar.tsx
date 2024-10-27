@@ -28,12 +28,6 @@ const Navbar = () => {
               >
                 <div
                   className="nav-link"
-                  style={{
-                    fontFamily: '"Orbitron"',
-                    fontSize: '0.675rem',
-                    transition: '1s ease',
-                    textAlign: 'center',
-                  }}
                 >
                   {hoveredIndex === index ? text : icon}
                 </div>

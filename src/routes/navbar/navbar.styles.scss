@@ -7,9 +7,14 @@
     background-color: rgba(0, 0, 0, 0.8);
 
     .nav-link {
-    
+
+      font-family: "Orbitron";
+      font-size: '0.675rem';
+      transition: '1s ease';
+      text-align: 'center';
+
       @media (max-width: 1200px) {
-        font-size: 0.7rem;
+        font-size: 0.475rem;
       }
     }
     
