@@ -10,6 +10,10 @@
     h1 {
         font-size: 1.5rem !important;
         text-align: center;
+
+        @media (max-width: 600px) {
+            margin-top: -1%;
+        }
     }
 
     .education-container {
@@ -20,6 +24,12 @@
         width: 95%;
         padding: 2%;
         padding-bottom: 8%;
+
+        .others {
+            @media (max-width: 600px) {
+                margin-bottom: 10%;
+            }
+        }
 
         .academic, .others {
             background-color: rgba(0, 0, 0, 0.1);
@@ -79,7 +89,7 @@
                     color: #f0f0f0;
 
                     @media (max-width: 600px) {
-                        font-size: 0.75rem;
+                        font-size: 0.7rem;
                     }
                 }
 
@@ -117,7 +127,7 @@
                     color: rgba(255, 255, 255, 0.9);
 
                     @media (max-width: 600px) {
-                        font-size: 0.75rem;
+                        font-size: 0.725rem;
                     }
 
                     &::before {

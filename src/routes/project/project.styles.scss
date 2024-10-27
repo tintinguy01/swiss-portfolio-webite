@@ -55,7 +55,14 @@
 }
 
 @media (max-width: 600px) {
-    .project-container .project {
-        height: 50vh;
+    .project-container {
+        
+        h1 {
+            font-size: 2.2rem;
+        }
+
+        .project {
+            height: 50vh;
+        }
     }
 }

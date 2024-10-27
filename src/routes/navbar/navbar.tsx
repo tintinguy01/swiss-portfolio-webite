@@ -30,7 +30,7 @@ const Navbar = () => {
                   className="nav-link"
                   style={{
                     fontFamily: '"Orbitron"',
-                    fontSize: '0.9rem',
+                    fontSize: '0.75rem',
                     transition: '1s ease',
                     textAlign: 'center',
                   }}
