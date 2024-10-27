@@ -207,17 +207,20 @@
 @media (max-width: 600px) {
     .home-container {
         
-        .h1-container h1 {
+        .h1-container {
+
+          h1 {
             font-size: 2rem;
-            margin-bottom: 3rem;
+            margin-bottom: 5rem;
+          }
+
+          p {
+            font-size: 0.8rem;
+          }
         }
 
         .hoverText {
           font-size: 0.85rem;
-        }
-
-        p {
-            font-size: 0.8rem;
         }
     }
   }
