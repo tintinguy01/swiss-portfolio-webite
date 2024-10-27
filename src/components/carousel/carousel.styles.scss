@@ -44,8 +44,8 @@
     }
     
     .dot {
-        height: 15px !important;
-        width: 15px !important;
+        height: 15px;
+        width: 15px;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 50%;
         background-color: rgba(0, 0, 0, 0.3);
@@ -63,6 +63,11 @@
 @media (max-width: 1400px) {
     .carousel-page {
         aspect-ratio: 1 !important;
+
+        .dot {
+            height: 7.5px !important;
+            width: 7.5px !important;
+        }
     }
 }
 
