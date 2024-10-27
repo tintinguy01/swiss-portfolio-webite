@@ -61,6 +61,11 @@
 @media (max-width: 1400px) {
     .carousel-page {
         aspect-ratio: 1 !important;
+
+        .dot {
+            height: 0.75;
+            width: 0.75;
+        }
     }
 }
 
