@@ -27,7 +27,7 @@
 
         .others {
 
-            @media (max-width: 1200px) {
+            @media (max-width: 1300px) {
                 margin-bottom: 5%;
             }
 
@@ -121,14 +121,13 @@
             .courses {
                 display: flex;
                 flex-direction: column;
-                gap: 0.5rem;
                 overflow-y: hidden;
                 max-height: 200px;
 
                 p {
                     position: relative;
                     padding-left: 1.2rem;
-                    font-size: 0.86rem;
+                    font-size: 0.8rem;
                     color: rgba(255, 255, 255, 0.9);
 
                     @media (max-width: 600px) {
