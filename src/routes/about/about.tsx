@@ -14,7 +14,9 @@ const About = () => {
                 <div className="profile-card">
                     <ProfileCard />
                 </div>
-                <CarouselProfile />
+                <div className="carousel-card">
+                    <CarouselProfile />
+                </div>
             </div>
         </div>
     );

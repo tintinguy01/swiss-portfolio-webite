@@ -27,19 +27,53 @@
             align-items: center;
         }
 
+        .carousel-card {
+            display: flex;
+            width: 55%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media (max-width: 1400px) {
+            align-items: flex-start;
+            justify-content: center;
+
+            .profile-card {
+                padding-right: 6rem;
+            }
+
+            .carousel-card {
+                display: flex;
+                align-items: flex-start;
+                width: 38%;
+            }
+        }
+
         @media (max-width: 1000px) {
             .profile-card {
                 display: none;
             }
 
-            margin-top: 2%;
-            width: 70%;
+            .carousel-card {
+                width: 80%;
+            }
+        }
+
+        @media (max-width: 600px) {
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+            .profile-card {
+                display: none; /* Keep profile card hidden */
+            }
+
+            .carousel-card {
+                width: 100%;
+                margin-top: 0;
+            }
         }
     }
 
-    @media (max-width: 1300px) {
-        h1 {
-            margin-top: 2rem;
-        }
-    }
+    
 }

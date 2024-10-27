@@ -3,9 +3,9 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    padding: 2rem;
     width: 100%;
-    margin: 5% 0;
+    height: 100%; /* Full-screen height */
+    margin: 0; /* Remove margin for full-screen */
     padding-right: 3%;
     padding-top: 4%;
     background-color: transparent;
@@ -22,7 +22,7 @@
     }
 
     .carousel-page {
-        aspect-ratio: 16 / 9;
+        aspect-ratio: 16 / 9; /* Default desktop aspect ratio */
         width: 100%;
         flex-shrink: 0;
         border-radius: 0.5rem;
@@ -30,11 +30,10 @@
         border: 1px solid rgb(255, 255, 255, 0.1);
         background-color: rgb(0, 0, 0, 0.3);
         object-fit: cover;
-
-        transition: transform 0.5s ease;
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: transform 0.5s ease;
     }
 
     .dots-container {
@@ -56,5 +55,25 @@
                 background-color: rgba(255, 255, 255, 0.5);
             }
         }
+    }
+}
+
+@media (max-width: 1400px) {
+    .carousel-page {
+        aspect-ratio: 1 !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel-container {
+        height: 100%;
+    }
+
+    .carousel-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0;
+        overflow: hidden;
     }
 }

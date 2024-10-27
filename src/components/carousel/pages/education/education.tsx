@@ -1,7 +1,7 @@
 import "./education.styles.scss";
 
-const universityImage = "/education-pic/university.png";
-const schoolImage = "/education-pic/school.jpg";
+import universityImage from "./education-pic/university.png";
+import schoolImage from "./education-pic/school.jpg";
 
 const Education = () => {
     return (
