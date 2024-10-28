@@ -128,12 +128,12 @@ const Home = () => {
           className="resume-button"
           onClick={() => {
             const link = document.createElement('a');
-            link.href = `${process.env.PUBLIC_URL}/Swiss-Resume.pdf`;
+            link.href = `${process.env.PUBLIC_URL}/files/Swiss-Resume.pdf`;
             link.download = "Swiss-Resume.pdf";
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
-          }}
+          }}          
           >
           <FileText size={20} />
         </IconButton>
